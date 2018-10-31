@@ -17,6 +17,8 @@ TARGET_HW_DISK_ENCRYPTION := true
 
 # Kernel
 TARGET_KERNEL_CONFIG := beryllium_defconfig
+KERNEL_TOOLCHAIN := $(shell pwd)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/aarch64-linux-gnu-8.2.1/bin
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-gnu-
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/beryllium/BoardConfigVendor.mk
