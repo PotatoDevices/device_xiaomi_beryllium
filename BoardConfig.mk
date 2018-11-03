@@ -17,6 +17,7 @@ TARGET_HW_DISK_ENCRYPTION := true
 
 # Kernel
 TARGET_KERNEL_CONFIG := kraken_user_defconfig
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 KERNEL_TOOLCHAIN := $(shell pwd)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/aarch64-linux-gnu-8.2.1/bin
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-gnu-
 
