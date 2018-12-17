@@ -31,5 +31,8 @@ TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-gnu-
 # Inherit from the proprietary version
 -include vendor/xiaomi/beryllium/BoardConfigVendor.mk
 
+# IR
+TARGET_FACE_UNLOCK_CAMERA_ID := 5
+
 # Sepolicy
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
