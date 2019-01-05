@@ -233,4 +233,6 @@
         <item>10</item>
     </integer-array>
 
+    <!-- Whether device has a physical display cutout -->
+    <bool name="config_physicalDisplayCutout">true</bool>
 </resources>
