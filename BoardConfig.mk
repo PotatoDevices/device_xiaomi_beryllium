@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018 The LineageOS Project
+# Copyright (C) 2018-2019 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -27,6 +27,12 @@ TARGET_KERNEL_CONFIG := kraken_user_defconfig
 KERNEL_TOOLCHAIN := $(shell pwd)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/aarch64-linux-gnu-8.2.1/bin
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-gnu-
 TARGET_KERNEL_SOURCE := kernel/xiaomi/beryllium
+
+# Partitions
+BOARD_RECOVERYIMAGE_PARTITION_SIZE := 67108864
+
+# Recovery
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/beryllium/BoardConfigVendor.mk
