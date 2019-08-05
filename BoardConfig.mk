@@ -45,3 +45,6 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
 # IR
 TARGET_FACE_UNLOCK_CAMERA_ID := 5
+
+# VNDK - disable isolation
+BOARD_VNDK_RUNTIME_DISABLE := true
