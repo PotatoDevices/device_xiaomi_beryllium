@@ -14,11 +14,17 @@ function blob_fixup() {
     vendor/etc/qdcm_calib_data_tianma_fhd_video_dsi_panel.xml)
         sed -i "s/\"hdr\"/\"sdr\"/" "${2}"
         ;;
+    vendor/lib/libgps.utils.so)
+        patchelf --replace-needed "libcutils.so"  "libprocessgroup.so" "${2}"
+        ;;
     vendor/lib/libmorpho_video_refiner.so)
         patchelf --replace-needed "libstdc++.so"  "libc++.so" "${2}"
         ;;
     vendor/lib64/libgf_hal.so)
         patchelf --remove-needed "libpowermanager.so" "${2}"
+        ;;
+    vendor/lib64/libgps.utils.so)
+        patchelf --replace-needed "libcutils.so"  "libprocessgroup.so" "${2}"
         ;;
     vendor/lib64/libremosaiclib.so)
         patchelf --replace-needed "libstdc++.so"  "libc++.so" "${2}"
