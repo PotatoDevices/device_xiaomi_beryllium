@@ -4,9 +4,9 @@
     "target_path": "device/xiaomi/sdm845-common"
   },
   {
-    "repository" : "AgentFabulous/beryllium",
+    "repository" : "RaphielGang/spins_kernel_xiaomi_sdm845",
     "target_path": "kernel/xiaomi/beryllium",
-    "branch" : "master"
+    "branch" : "rebase-sdm-10"
   },
   {
     "remote"     : "potato",
