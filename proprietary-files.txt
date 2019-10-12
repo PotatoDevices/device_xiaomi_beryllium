@@ -228,7 +228,7 @@ lib64/vendor.qti.gnss@1.1.so
 lib64/vendor.qti.gnss@1.2.so
 lib64/vendor.qti.gnss@2.0.so
 lib64/vendor.qti.gnss@2.1.so
--priv-app/com.qualcomm.location/com.qualcomm.location.apk
+-priv-app/com.qualcomm.location/com.qualcomm.location.apk|0b9b8ac7863e41b9d21e4b0508e13bcc5c6a03c3
 vendor/bin/hw/vendor.qti.gnss@2.0-service
 vendor/bin/DR_AP_Service
 vendor/bin/chre
