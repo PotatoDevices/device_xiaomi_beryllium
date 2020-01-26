@@ -4,9 +4,9 @@
     "target_path": "device/xiaomi/sdm845-common"
   },
   {
-    "repository" : "LineageOS/android_kernel_xiaomi_sdm845",
+    "repository" : "AOSiP-Devices/kernel_xiaomi_sdm845",
     "target_path": "kernel/xiaomi/beryllium",
-    "branch" : "lineage-17.0"
+    "branch" : "ten"
   },
   {
     "remote"     : "potato",
