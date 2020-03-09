@@ -9,11 +9,6 @@
     "branch" : "ten"
   },
   {
-    "remote"     : "potato",
-    "repository" : "prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-8.2.1",
-    "target_path": "prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-8.2.1"
-  },
-  {
     "repository" : "vendor_xiaomi_beryllium",
     "target_path": "vendor/xiaomi/beryllium"
   },
