@@ -6,3 +6,6 @@ ro.sf.lcd_density=440
 
 # Display Cutout
 ro.potato.has_cutout=true
+
+# Face Unlock
+ro.face.moto_unlock_service.cam_id=5
