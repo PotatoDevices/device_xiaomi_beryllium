@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosip_beryllium.mk
+    $(LOCAL_DIR)/potato_beryllium.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosip_beryllium-user \
-    aosip_beryllium-userdebug \
-    aosip_beryllium-eng
+    potato_beryllium-user \
+    potato_beryllium-userdebug \
+    potato_beryllium-eng
