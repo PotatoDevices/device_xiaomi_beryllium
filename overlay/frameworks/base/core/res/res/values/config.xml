@@ -216,4 +216,7 @@
     <dimen name="status_bar_height_portrait">86.0px</dimen>
     <dimen name="status_bar_height_landscape">24.0dp</dimen>
     <dimen name="rounded_corner_radius_top">104px</dimen>
+
+    <bool name="config_proximityCheckOnWake">true</bool>
+    <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
 </resources>
